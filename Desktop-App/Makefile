@@ -3,7 +3,11 @@ SCHEME := Contextclip
 BUILD_DIR := build
 APP := $(BUILD_DIR)/Build/Products/Release/Contextclip.app
 
-.PHONY: generate build test run install icon clean
+.PHONY: setup generate build test run install icon clean
+
+setup:
+	@command -v xcodegen >/dev/null || brew install xcodegen
+	xcodegen generate
 
 generate:
 	xcodegen generate
