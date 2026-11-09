@@ -36,8 +36,6 @@ make test
 
 ## Deploy
 
-**Live at:** Not hosted. Source is public at https://github.com/kohjakob/contextclip, with no GitHub releases.
-
 **Where it runs:** On your own Mac, from `/Applications`.
 
 **Needs:** Only the requirements above.
